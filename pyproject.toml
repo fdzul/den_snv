@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "den_snv"
+version = "0.1.0"
+description = "Download, geocode, explore and analyze the dengue dataset of SINAVE"
+authors = ["Felipe Dzul Manzanilla & Fabian Correa Morales"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
